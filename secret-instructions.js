@@ -1,0 +1,12 @@
+console.log('===== IMPORTANT INSTRUCTIONS =====');
+console.log('To set the OpenAI API key as a secret in your Supabase project:');
+console.log('1. Go to your Supabase dashboard: https://supabase.com/dashboard/project/vifseoytrxxlkqyiwlvw');
+console.log('2. Navigate to "Edge Functions" in the sidebar');
+console.log('3. Click on the "generate-pickup-line" function');
+console.log('4. Click on "Secrets" in the function details');
+console.log('5. Add a new secret with:');
+console.log('   - Name: OPENAI_API_KEY');
+console.log('   - Value: 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');
+console.log('6. Click "Save"');
+console.log('\nAfter setting the secret, your Edge Function will be able to access the OpenAI API.');
+console.log('====================='); 
